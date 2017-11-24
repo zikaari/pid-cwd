@@ -25,7 +25,7 @@ pidCwd(54671)
 
 ## Note
 
-`pid-cwd` will simply return `null` if process doesn't exist, or process is owned by root/adminstrator or is unreachable or any other reason.<br>
+`pid-cwd` will simply return `null` if process doesn't exist, or process is owned by root/administrator or is unreachable or any other reason.<br>
 It won't throw any `EPERM` error or anything like that. It does throw if it can't recognize the OS or given `pid` is not a positive number.
 
 \* Works as long as `process.platform` === `win32`, `linux` or `darwin`. <br>
