@@ -6,4 +6,4 @@
  */
 declare function cwd(pid: number): Promise<string>;
 export default cwd;
-export as namespace cwd;
+export = cwd;
