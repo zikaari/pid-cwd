@@ -1,6 +1,6 @@
 {
   "name": "pid-cwd",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Get working directory of process by PID - cross platform",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
