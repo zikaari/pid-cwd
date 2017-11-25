@@ -30,3 +30,11 @@ It won't throw any `EPERM` error or anything like that. It does throw if it can'
 
 \* Works as long as `process.platform` === `win32`, `linux` or `darwin`. <br>
 &nbsp;&nbsp;&nbsp;Throws if it's not one of those, in that case `require` manually from `pid-cwd/lib/$1` where `$1` is `win`, `linux` or `macos`
+
+## External Licenses
+
+Massive thanks to  Giampaolo Rodola' and contributors, for their amazing work on [psutil](https://github.com/giampaolo/psutil)
+
+`lib/win_pwdx/` contains 99.97% of code borrowed from [`psutil/arch/windows/process_info.c`](https://github.com/giampaolo/psutil/blob/master/psutil/arch/windows/process_info.c)
+
+`psutil` is BSD licensed, see [`psutil/LICENSE`](https://github.com/giampaolo/psutil/blob/master/LICENSE) for more information.
