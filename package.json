@@ -6,7 +6,7 @@
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chipto/pid-cwd.git"
+    "url": "git+https://github.com/NeekSandhu/pid-cwd.git"
   },
   "keywords": [
     "pid",
@@ -19,10 +19,10 @@
     "cross",
     "platfrom"
   ],
-  "author": "Neek Sandhu <neek.sandhu@chipto.io>",
+  "author": "Neek Sandhu <neek.sandhu@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chipto/pid-cwd/issues"
+    "url": "https://github.com/NeekSandhu/pid-cwd/issues"
   },
-  "homepage": "https://github.com/chipto/pid-cwd#readme"
+  "homepage": "https://github.com/NeekSandhu/pid-cwd#readme"
 }
